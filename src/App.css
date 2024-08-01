@@ -1,0 +1,22 @@
+/* src/App.css */
+.phone-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.phone-card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+  width: calc(33% - 20px);
+}
+
+.pagination {
+  margin-top: 20px;
+}
+
+.pagination button {
+  margin: 0 5px;
+  padding: 10px 15px;
+}
